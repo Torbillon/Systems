@@ -1,0 +1,12 @@
+To compile Jacobi.c on WWU Linux machines:
+gcc Jacobi.c -o Jacobi -lpthread
+
+
+To run Jacobi.c and store output:
+./Jacobi [input file] [number of threads]  >  [desired output file]
+
+
+
+To compile and run jacobicmp.c
+gcc -o jacobicmp jacobicmp.c
+./jacobicmp [output file] [other output file]
